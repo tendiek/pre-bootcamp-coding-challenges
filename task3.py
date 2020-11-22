@@ -6,4 +6,6 @@ def my_func( x , y ):
     else:
        return False  
 
-print(my_func(55, 10))
+x = int(input("Please enter 1st number: "))
+y = int(input("Please enter 2nd number: "))
+print(my_func(x,y))
