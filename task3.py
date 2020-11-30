@@ -1,6 +1,6 @@
 # function to determine if a number is equals 65 or the 
 # sum of two numbers equals 65
-def num_comparison( x , y ):
+def num_compare( x , y ):
     if (x == 65 or y == 65 or x + y == 65):
         return True
     else:
@@ -8,4 +8,4 @@ def num_comparison( x , y ):
 
 x = int(input("Please enter 1st number: "))
 y = int(input("Please enter 2nd number: "))
-print(num_comparison(x,y))
+print(num_compare(x,y))
